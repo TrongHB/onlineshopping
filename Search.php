@@ -47,7 +47,7 @@
                     <div class="col-md-4">
                         <div class="single-product-widget">
                             <div class="single-wid-product">
-                                <a href="?page=view&&id=<?php echo $row['Product_ID']; ?>"><img src="product-imgs/<?php echo $row['Pro_image'] ?>" alt="" class="product-thumb"></a>
+                                <a href="?page=view&&id=<?php echo $row['Product_ID']; ?>"><img src="images1/product-imgs/<?php echo $row['Pro_image'] ?>" alt="" class="product-thumb"></a>
                                 <h2><a href="?page=view&&id=<?php echo $row['Product_ID']; ?>"><?php echo  $row['Product_Name'] ?></a></h2>
                                 <div class="product-wid-rating">
                                     <i class="fa fa-star"></i>
